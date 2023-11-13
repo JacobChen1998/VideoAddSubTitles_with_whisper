@@ -14,6 +14,15 @@ End to end add (translated) subtitles on video file with whisper which developed
 
 ## Run the code to add subtitle only:
     python e2e_video_add_subtitles.py --source AAA.mp4 --modelType medium
+    python e2e_video_add_subtitles_v2.py --source AAA.mp4 --modelType medium
 
 ## Run the code to add translated subtitle only:
     python e2e_video_add_subtitles.py --source BBB.mp4 --modelType medium --langFrom ja --langTo zh-TW
+    python e2e_video_add_subtitles_v2.py --source BBB.mp4 --modelType medium --langFrom ja --langTo zh-TW
+
+## Work-Flow of transcription:
+[pic1](https://github.com/JacobChen1998/VideoAddSubTitles_with_whisper/blob/main/trancribe_constructure.png)
+
+## Work-Flow of tranlation:
+[pic2](https://github.com/JacobChen1998/VideoAddSubTitles_with_whisper/blob/main/translate_constructure.png)
+
