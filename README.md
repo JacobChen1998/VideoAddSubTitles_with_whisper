@@ -1,6 +1,6 @@
 # VideoAddSubTitles_with_whisper
-End to end add (translated) subtitles on video file with whisper which developed by OpenAI.
-
+End to end adding (translated) subtitles on video file with whisper which developed by OpenAI.
+For translation, we supported two piplelines, version 2 (v2) has better result. The work-flow as shown in figure
 ## Follow instructure to use this tool:
     conda create --name whisperTorch python=3.9
     conda activate whisperTorch
